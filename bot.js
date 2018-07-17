@@ -66,7 +66,7 @@ const botStats = {
 	totalChannelsID: '468779680632274963',
 	
 	
-	
+});
 	
 	client.on('guildCreate', guild => {
 		
