@@ -58,4 +58,40 @@ joined info-selfie
 })
 
 
+
+
+const botstats = {
+	totalGuildsID: '468779433692758016',
+	totalUsersID: '468779034302480384',
+	totalChannelsID: '468779680632274963',
+	
+	
+	
+	
+	client.on('guildCreate', guild => {
+		
+	client.channel.get(botstats.totalGuildID).setname('Total Guilds : ${client.guilds.size}');
+	client.channel.get(botstats.totalUsersID).setname('Total Users : ${client.guilds.reduce((a, g) => a + g.memberCount, 0)}');
+	client.channel.get(botstats.totalChannelsID).setname('Total Channels : ${client.channels.size}');
+		
+		
+		
+	);
+		
+		
+	client.on('guildDelete', guild => {
+	
+	
+	client.channel.get(botstats.totalGuildID).setname('Total Guilds : ${client.guilds.size}');
+	client.channel.get(botstats.totalUsersID).setname('Total Users : ${client.guilds.reduce((a, g) => a + g.memberCount, 0)}');
+	client.channel.get(botstats.totalChannelsID).setname('Total Channels : ${client.channels.size}');
+	
+	
+	
+	
+	
+	
+	);
+
+
 client.login(process.env.BOT_TOKEN);
