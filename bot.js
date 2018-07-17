@@ -82,9 +82,9 @@ const botStats = {
 	client.on('guildDelete', guild => {
 	
 	
-	client.channel.get(botStats.totalGuildsID).setname('TotalGuilds : ${client.guilds.size}');
-	client.channel.get(botStats.totalUsersID).setname('TotalUsers : ${client.guilds.reduce((a, g) => a + g.memberCount, 0)}');
-	client.channel.get(botStats.totalChannelsID).setname('TotalChannels : ${client.channels.size}');
+	client.channels.get(botStats.totalGuildsID).setname('TotalGuilds : ${client.guilds.size}');
+	client.channels.get(botStats.totalUsersID).setname('TotalUsers : ${client.guilds.reduce((a, g) => a + g.memberCount, 0)}');
+	client.channels.get(botStats.totalChannelsID).setname('TotalChannels : ${client.channels.size}');
 		
 			
 		
