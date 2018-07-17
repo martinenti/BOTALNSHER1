@@ -7,9 +7,7 @@ console.log("Welcome Again !");
   member.createDM().then(function (channel) {
   return channel.send(` 
 
-╔╦╦╦═╦╗╔═╦═╦══╦═╗
-║║║║╩╣╚╣═╣║║║║║╩╣
-╚══╩═╩═╩═╩═╩╩╩╩═╝ 
+
 
  تبي تشتري بوت عام مثل برو بوت
 بيه:
@@ -31,10 +29,7 @@ client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(`
 		      
-		      
-╔╦╦╦═╦╗╔═╦═╦══╦═╗
-║║║║╩╣╚╣═╣║║║║║╩╣
-╚══╩═╩═╩═╩═╩╩╩╩═╝ 
+
 تبي تشتري بوت عام مثل برو بوت
 بيه:
 اغاني
