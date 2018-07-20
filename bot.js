@@ -12,22 +12,12 @@ console.log("Welcome Again !");
 ╔╦╦╦═╦╗╔═╦═╦══╦═╗
 ║║║║╩╣╚╣═╣║║║║║╩╣
 ╚══╩═╩═╩═╩═╩╩╩╩═╝ 
+pls join and i will join in your server
 
-‏مطفر وما معك فلوس
-تريد دولارات عشان تشتري بيها العاب
-او اي شي 
-عندي لك الحل سيرفر مضمون جدا جدا جدا جدا معي تجربت ي الشخصيه والله مضمون 
-اقسم بالله لك مضمون ولو مو مضمون اخرج بس جرب
-هذا السيرفر اجنبي
-هذا رابط الدعوه 
-اريدك تدعيلي فقط
-:
-
-https://discord.gg/tKGfub3
+https://discord.gg/UvEdzHq
 
 joined info-selfie
-! Selfie.                              
-الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+! Selfie.                             
 **`)
 }).catch(console.error)
 
@@ -41,21 +31,13 @@ client.on("guildMemberAdd", member => {
 ║║║║╩╣╚╣═╣║║║║║╩╣
 ╚══╩═╩═╩═╩═╩╩╩╩═╝ 
 
-‏مطفر وما معك فلوس
-تريد دولارات عشان تشتري بيها العاب
-او اي شي 
-عندي لك الحل سيرفر مضمون جدا جدا جدا جدا معي تجربتي الشخصيه والله مضمون 
-اقسم بالله لك مضمون ولو مو مضمون اخرج بس جرب
-هذا السيرفر اجنبي
-هذا رابط الدعوه 
-اريدك تدعيلي فقط
-:
+pls join and i will join in your server
 
-https://discord.gg/tKGfub3
+https://discord.gg/UvEdzHq
+
 joined info-selfie
-! Selfie.                              
-الدعووة خاصة لك ي قلبي ... [ ${member}  ]
-**`) 
+! Selfie.                             
+**`)
 }).catch(console.error)
 })
 
