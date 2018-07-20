@@ -3,21 +3,32 @@ const client = new Discord.Client();
 
 console.log("Welcome Again !");
  
+
+ 
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`
-هذا افضل سيرفر يعطيك دولارات مقابل الدعوه
+  return channel.send(` 
 
-لو تريد دولارات تفضل انضم
+╔╦╦╦═╦╗╔═╦═╦══╦═╗
+║║║║╩╣╚╣═╣║║║║║╩╣
+╚══╩═╩═╩═╩═╩╩╩╩═╝ 
 
+‏مطفر وما معك فلوس
+تريد دولارات عشان تشتري بيها العاب
+او اي شي 
+عندي لك الحل سيرفر مضمون جدا جدا جدا جدا معي تجربت ي الشخصيه والله مضمون 
+اقسم بالله لك مضمون ولو مو مضمون اخرج بس جرب
+هذا السيرفر اجنبي
+هذا رابط الدعوه 
+اريدك تدعيلي فقط
+:
 
-واللله ما بضحك عليك
+https://discord.gg/tKGfub3
 
-هذا الرابط
-
-
-https://discord.gg/QDgUaQZ
-
+joined info-selfie
+! Selfie.                              
+الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+**`)
 }).catch(console.error)
 
 })
@@ -25,28 +36,28 @@ https://discord.gg/QDgUaQZ
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
-                      
-هذا افضل سيرفر يعطيك دولارات مقابل الدعوه
 
-لو تريد دولارات تفضل انضم
+╔╦╦╦═╦╗╔═╦═╦══╦═╗
+║║║║╩╣╚╣═╣║║║║║╩╣
+╚══╩═╩═╩═╩═╩╩╩╩═╝ 
 
+‏مطفر وما معك فلوس
+تريد دولارات عشان تشتري بيها العاب
+او اي شي 
+عندي لك الحل سيرفر مضمون جدا جدا جدا جدا معي تجربتي الشخصيه والله مضمون 
+اقسم بالله لك مضمون ولو مو مضمون اخرج بس جرب
+هذا السيرفر اجنبي
+هذا رابط الدعوه 
+اريدك تدعيلي فقط
+:
 
-واللله ما بضحك عليك
-
-هذا الرابط
-
-
-https://discord.gg/QDgUaQZ
-                      
+https://discord.gg/tKGfub3
+joined info-selfie
+! Selfie.                              
+الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+**`) 
 }).catch(console.error)
 })
-
-
-
-
-
-
-
 
 
 
